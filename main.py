@@ -31,17 +31,20 @@ def shop():
 def contact():
     return render_template('contact.html')
 
-# @app.route('/shop-single/<int:product_id>')
-# def shop_single(product_id):
-#     producto = next((p for p in productos if p["id"] == product_id), None)
-#     if producto is None:
-#         return "Producto no encontrado", 404
-#     return render_template('shop_single.html', producto=producto)
+'''
+@app.route('/shop-single/<int:product_id>')
+def shop_single(product_id):
+    producto = next((p for p in productos if p["id"] == product_id), None)
+    if producto is None:
+        return "Producto no encontrado", 404
+    return render_template('shop-single.html', producto=producto)
+'''
 
 
 @app.route('/shop-single')
 def shop_single():
-    return render_template('shop_single.html')
+    return render_template('shop-single.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
