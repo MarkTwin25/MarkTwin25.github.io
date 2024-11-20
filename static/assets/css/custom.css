@@ -1,3 +1,8 @@
 /*
 Custom Css
 */
+.img-small {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Esto asegura que no se deformen */
+}
