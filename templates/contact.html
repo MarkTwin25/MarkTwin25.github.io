@@ -67,8 +67,8 @@ https://templatemo.com/tm-559-zay-shop
       crossorigin=""
     ></script>
     <script>
-      // Coordenadas de la Ciudad de México
-      var mymap = L.map("mapid").setView([19.432608, -99.133209], 13);
+      // Coordenadas de Coyoacán
+      var mymap = L.map("mapid").setView([19.35529, -99.16365], 13);
 
       L.tileLayer(
         "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw",
@@ -84,10 +84,10 @@ https://templatemo.com/tm-559-zay-shop
         }
       ).addTo(mymap);
 
-      // Marca en el centro de la CDMX
-      L.marker([19.432608, -99.133209])
+      // Marca en el centro de Coyoacán
+      L.marker([19.35529, -99.16365])
         .addTo(mymap)
-        .bindPopup("<b>DICA</b> Ciudad de México")
+        .bindPopup("<b>DICA</b> Coyoacán, Ciudad de México")
         .openPopup();
 
       mymap.scrollWheelZoom.disable();
