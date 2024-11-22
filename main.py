@@ -9,13 +9,13 @@ def index():
 '''EL DETALLE ES QUE TIENEN QUE TENER EL MISMO TAMANO'''
 productos = [
     {"id": 1, "nombre": "Trompo pastor con verduras", "precio": 15000.00, "imagen": "static/assets/img/trompo.jpeg"},
-    {"id": 2, "nombre": "Pantalones Negros", "precio": 400.00, "imagen": "static/assets/img/shop_02.jpg"},
-    {"id": 3, "nombre": "Zapatos Deportivos", "precio": 600.00, "imagen": "static/assets/img/shop_03.jpg"},
-    {"id": 4, "nombre": "Bolsa Azul", "precio": 150.00, "imagen": "static/assets/img/shop_04.jpg"},
-    {"id": 5, "nombre": "Gorra Negra", "precio": 50.00, "imagen": "static/assets/img/shop_05.jpg"},
-    {"id": 6, "nombre": "Gorra Negra", "precio": 50.00, "imagen": "static/assets/img/shop_05.jpg"},
-    {"id": 7, "nombre": "Gorra Negra", "precio": 50.00, "imagen": "static/assets/img/shop_05.jpg"},
-    {"id": 8, "nombre": "Gorra Negra", "precio": 50.00, "imagen": "static/assets/img/shop_05.jpg"},
+    {"id": 2, "nombre": "Churrasco c/hueso", "precio": 5000.00, "imagen": "static/assets/img/churrasco.jpg"},
+    {"id": 3, "nombre": "Mariscada Surtida", "precio": 6000.00, "imagen": "static/assets/img/mariscadap.jpg"},
+    {"id": 4, "nombre": "Quesos Gourmet", "precio": 11000.00, "imagen": "static/assets/img/quesosg.jpg"},
+    {"id": 5, "nombre": "Jitomates Importados", "precio": 4500.00, "imagen": "static/assets/img/jitomatesp.jpg"},
+    {"id": 6, "nombre": "Agujas de Res", "precio": 50.00, "imagen": "static/assets/img/agujasp.jpg"},
+    {"id": 7, "nombre": "Calabazas Otoñales", "precio": 3800.00, "imagen": "static/assets/img/calabazasp.jpg"},
+    {"id": 8, "nombre": "Costillas de cerdo marinadas", "precio": 9000.00, "imagen": "static/assets/img/costillas.jpg"},
 ]
 
 
